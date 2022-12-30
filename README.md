@@ -8,8 +8,16 @@ Keywords : Theoretical Computer Science, Artificial Intelligence and Machine Lea
 
 DOI: https://doi.org/10.21203/rs.3.rs-2390968/v1
 
+## installation
+### via pip:
+  pip install Xgression
 
-Reference:
+## Usage
+
+![image](https://user-images.githubusercontent.com/62195081/210056918-5dd3f3f7-9f0b-46e0-b1bd-10da89eb1bf0.png)
+
+
+## Reference:
 [1]	Nocedal, Jorge; Wright, Stephen J. (2006), Numerical Optimization (2nd ed.), Berlin, New York: Springer-Verlag, ISBN 978-0-387-30303-1
 [2]	Python Software Foundation. Python Language Reference, version 3.11. Available at http://www.python.org
 [3]	Meurer A, Smith CP, Paprocki M, Čertík O, Kirpichev SB, Rocklin M, Kumar A, Ivanov S, Moore JK, Singh S, Rathnayake T, Vig S, Granger BE, Muller RP,
