@@ -14,7 +14,7 @@ DOI: https://doi.org/10.21203/rs.3.rs-2390968/v1
 
 ## Usage
 
-![image](https://user-images.githubusercontent.com/62195081/210056918-5dd3f3f7-9f0b-46e0-b1bd-10da89eb1bf0.png)
+![image](https://user-images.githubusercontent.com/62195081/210070172-02e134da-a307-43e1-a528-28059a43f246.png)
 
 
 ## Reference:
