@@ -430,8 +430,8 @@ class UnknownOperator(Node):
             
 class Xgression:
     def __init__(self, x: Dict, y, y_name = None, classification = False) -> None:
-        self.x = x
-        self.y = y
+        self.x = {xk : np.asarray(x[xk]) for xk in x}
+        self.y = np.asarray(y)
         self.error_log = []
         self.best_eq = None
         self.best_error = 99999999
@@ -780,7 +780,8 @@ class Xgression:
                 for v_ref,v_value in zip(self.get_variables(),mv):
                     v_ref.a = v_value
             else:
-                print(mv)
+                #print(mv)
+                pass
         except Exception as e:
             print(e)
             pass

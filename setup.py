@@ -6,7 +6,7 @@ setup(
    description='The Algorithm that find any relationship between data in equation form',
    author='Thaphon Chinnakornsakul',
    author_email='osunchizaza@gmail.com',
-   packages=['src'],  #same as name
+   packages=['xgression'],  #same as name
    install_requires=['numpy', 'sympy', 'scipy', 'matplotlib'],
    long_description="""
 # Xgression

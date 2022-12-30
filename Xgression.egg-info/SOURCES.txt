@@ -1,8 +1,11 @@
+LICENSE
+README.md
 setup.py
 Xgression.egg-info/PKG-INFO
 Xgression.egg-info/SOURCES.txt
 Xgression.egg-info/dependency_links.txt
 Xgression.egg-info/requires.txt
 Xgression.egg-info/top_level.txt
-src/xgression_lib.py
-src/xgression_tkinter.py
+xgression/ex1.py
+xgression/xgression_lib.py
+xgression/xgression_tkinter.py
