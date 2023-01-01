@@ -10,11 +10,41 @@ DOI: https://doi.org/10.21203/rs.3.rs-2390968/v1
 
 ## installation
 ### via pip:
-  pip install Xgression
+```
+pip install Xgression
+```
 
 ## Usage
+```
+from xgression.xgression_lib import Xgression
+import numpy as np
 
-![image](https://user-images.githubusercontent.com/62195081/210070172-02e134da-a307-43e1-a528-28059a43f246.png)
+## DUMMY data
+u = np.array([1,2,3,4,5,6,7])
+a = np.array([3,5,4,6,5,7,6])
+s = a+3
+v = np.sqrt(u**2+2*a*s)
+
+inputs = {"u":u,"a":a,"s":s}
+
+model = Xgression(inputs,v,y_name="v")
+
+min_error = 999999999
+
+while True:
+    error = model.iteration()
+    #print(error,model.get_equation())
+    if error < min_error:
+        min_error = error
+        print(error,model.get_equation())
+    if error <= 0.000001:
+        break
+
+### THE XGRESSION FOUND THIS SOLUTION (error = 0.09823555898800733)
+
+# f(x1,X2) = ((cos(x1) - 0.9352702382439612)*(1.0087062458005631*1.4360224981242065**(x1**0.9982406583982952) 
+# + X2**0.4728381686205922 + 2.1078702588835996) - 0.015435836069541794)/(cos(x1) - 0.9352702382439612)
+```
 
 
 ## Reference:
