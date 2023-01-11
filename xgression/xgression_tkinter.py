@@ -10,7 +10,7 @@ from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg
 import re
 import numpy as np
 
-from xgression_lib import Xgression
+from xgression.xgression_lib import Xgression
 
 class App(tk.Tk):
     def __init__(self):

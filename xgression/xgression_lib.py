@@ -9,9 +9,6 @@ import threading as th
 import secrets
 import math
 import numbers
-import matplotlib.pyplot as plt
-import matplotlib
-matplotlib.use('TkAgg')
 from contextlib import contextmanager
 import threading
 import _thread
@@ -429,7 +426,7 @@ class UnknownOperator(Node):
         return best_value,best_dist,best_value_name,best_operator,best_prev
             
 class Xgression:
-    def __init__(self, x: Dict, y, y_name = None, classification = False) -> None:
+    def __init__(self, x: Dict, y, y_name = None, classification = False, require_plt=False) -> None:
         self.x = {xk : np.asarray(x[xk]) for xk in x}
         self.y = np.asarray(y)
         self.error_log = []
@@ -454,16 +451,22 @@ class Xgression:
                     "add":self.find_the_best_way_to_add_node}
         self.ops_backup = copy(self.ops)
 
-        fig,axs = plt.subplots(len(self.x))
-        self.fig = fig
-        try:
-            self.axs = list(axs)
-        except:
-            self.axs = [axs]
+        if require_plt:
+            global plt
+            global matplotlib
+            import matplotlib.pyplot as plt
+            import matplotlib
+            matplotlib.use('TkAgg')
+
+            fig,axs = plt.subplots(len(self.x))
+            self.fig = fig
+            try:
+                self.axs = list(axs)
+            except:
+                self.axs = [axs]
         #if not isinstance(self.axs, collections.abc.Sequence):
         #    self.axs = [self.axs]
         self.loss_fn = self.mse
-        print(self.axs,self.fig)
 
     def init_tree(self, x):
         for i,vf in enumerate(self.x):
@@ -833,7 +836,7 @@ class Xgression:
         return f'{self.annotation} = Sigmoid({sp.simplify(str((self.tree.get_head())))})'
 
 if __name__ == "__main__":
-    case = 3
+    case = 1
     #rd.seed(20)
 
     if case == 1:
