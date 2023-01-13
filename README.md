@@ -61,4 +61,4 @@ symbolic computing in Python. *PeerJ Computer Science* 3:e103https://doi.org/10.
 [6] Visit This [Predict Diabetes Kaggle](https://www.kaggle.com/datasets/whenamancodes/predict-diabities) for testing data
 
 # Note; The Code is still Unclear and unrefactored. i just wrote what i thought directly
-# I will definitely refactor this after i pass the university interviewing!!
+# I will definitely refactor this after i pass every university interviewing!!
