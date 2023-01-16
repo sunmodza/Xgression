@@ -2,7 +2,7 @@
 ## The Dynamic and Explainable Regression/Classification Solution
 ## Author : Thaphon Chinnakornsakul
 [![CI](https://github.com/sunmodza/Xgression/actions/workflows/python-publish.yml/badge.svg)](https://github.com/sunmodza/Xgression/actions/workflows/python-publish.yml)
-
+## [Medium Article About How i created Xgression(ภาษาไทย/Thai Language)](https://sunmodza.medium.com/the-story-of-xgression-8201ba2d3543)
 ## [Xgression With UI Version (Tkinter)](https://github.com/sunmodza/xgression_tk)
 
 Xgression is the solution to find relationships between data to an equation by constructing computational tree that represent the steps of calculation from inputs to an output of algorithm then modify the tree with various operator to find the optimal solution. As the result Xgression can perform many forms of regression without setting initial equations or parameters
