@@ -48,7 +48,7 @@ while True:
 # f(x1,X2) = ((cos(x1) - 0.9352702382439612)*(1.0087062458005631*1.4360224981242065**(x1**0.9982406583982952) 
 # + X2**0.4728381686205922 + 2.1078702588835996) - 0.015435836069541794)/(cos(x1) - 0.9352702382439612)
 ```
-### Next Version Coming Very Soon
+### The Next Version Preprint Coming Very Soon
 
 ## Reference:
 [1]	Nocedal, Jorge; Wright, Stephen J. (2006), Numerical Optimization (2nd ed.), Berlin, New York: Springer-Verlag, ISBN 978-0-387-30303-1
