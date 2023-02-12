@@ -48,7 +48,7 @@ while True:
 # f(x1,X2) = ((cos(x1) - 0.9352702382439612)*(1.0087062458005631*1.4360224981242065**(x1**0.9982406583982952) 
 # + X2**0.4728381686205922 + 2.1078702588835996) - 0.015435836069541794)/(cos(x1) - 0.9352702382439612)
 ```
-
+### Next Version Coming Very Soon
 
 ## Reference:
 [1]	Nocedal, Jorge; Wright, Stephen J. (2006), Numerical Optimization (2nd ed.), Berlin, New York: Springer-Verlag, ISBN 978-0-387-30303-1
@@ -59,6 +59,3 @@ symbolic computing in Python. *PeerJ Computer Science* 3:e103https://doi.org/10.
 [4]	Pauli Virtanen, Ralf Gommers, Travis E. Oliphant, Matt Haberland, Tyler Reddy, David Cournapeau, Evgeni Burovski, Pearu Peterson, Warren Weckesser, Jonathan Bright, Stéfan J. van der Walt, Matthew Brett, Joshua Wilson, K. Jarrod Millman, Nikolay Mayorov, Andrew R. J. Nelson, Eric Jones, Robert Kern, Eric Larson, CJ Carey, İlhan Polat, Yu Feng, Eric W. Moore, Jake VanderPlas, Denis Laxalde, Josef Perktold, Robert Cimrman, Ian Henriksen, E.A. Quintero, Charles R Harris, Anne M. Archibald, Antônio H. Ribeiro, Fabian Pedregosa, Paul van Mulbregt, and SciPy 1.0 Contributors. (2020) SciPy 1.0: Fundamental Algorithms for Scientific Computing in Python. Nature Methods, 17(3), 261-272.4
 [5]	Harris, C.R., Millman, K.J., van der Walt, S.J. et al. Array programming with NumPy. Nature 585, 357–362 (2020). DOI: 10.1038/s41586-020-2649-2. (Publisher link).
 [6] Visit This [Predict Diabetes Kaggle](https://www.kaggle.com/datasets/whenamancodes/predict-diabities) for testing data
-
-# Note; The Code is still Unclear and unrefactored. i just wrote what i thought directly
-# I will definitely refactor this after i pass every university interviewing!!
